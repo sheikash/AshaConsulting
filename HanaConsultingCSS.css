@@ -12,8 +12,11 @@ body {
 	font-weight: bold;
 	box-sizing: border-box;
 }
-p, h4, label{
+p,  label{
 	color: black;
+}
+h4{
+	color: #8E793E;
 }
 
 
@@ -27,8 +30,8 @@ p, h4, label{
 }
 
 h2 {
-	margin-bottom: 2em;
-	margin-top:2em;
+	margin-bottom: 1.5em;
+	margin-top:1.5em;
 	color:#AD974F;
 }
 
@@ -39,7 +42,7 @@ header {
 	background-color: white;
 	font-family: source-sans-pro;
 	padding:20px;
-	
+
 }
 nav {
 	float: right;
@@ -119,22 +122,23 @@ ul li:hover a {
 	font-weight: normal;
 	line-height: 25px;
 	float: left;
-		
-	border: 1px solid green;
+	
 	color:black;
 	
 }
 
-.about {
- padding: 50px;
+#about {
+	padding-left:200px;
+	padding-right:200px;
+	padding-bottom:20px;
 	display: inline-block;
 	margin: auto 0;
 	text-align:center;
+	
 }
 
-.abouth2{
-	width: 100%;
-	margin-left: 1.5rem;
+.about{
+	margin-left: 6rem;
 }
 
 
@@ -195,19 +199,24 @@ ul li:hover a {
 	text-align: center;
 	height: 50vh;
 	position: relative; 
+	
+	border: 1px solid green;
 }
 
 .valueh2 {
-	width: 100%;
-	margin-left: 1.5rem;
+	margin-left: 6rem;
 	
 	
 }
 
 #value1, #value2, #value3{
 	height: 60%;
-	padding: 50px;
-
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-bottom: 20px;
+	padding-top:10px;
+	font-weight: normal;
+	border: 1px solid green;
 }
 
 
