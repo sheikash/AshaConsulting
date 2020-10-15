@@ -1,0 +1,580 @@
+@charset "UTF-8";
+
+
+
+
+
+/* Body */
+body {
+	font-family: source-sans-pro;
+	background-color:none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: bold;
+	box-sizing: border-box;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+
+
+h2 {
+	margin-bottom: 2em;
+}
+
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: dimgrey;
+	border-bottom: 1px solid #2C9AB7;
+}
+nav {
+	float: right;
+	width: 50%;
+	text-align: right;
+	margin-right: 25px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: white;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 2px;
+	font-weight: bold;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: white;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: black;
+}
+
+
+/* Company Name and Header Section */
+.company_header {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	text-weight: bold;
+	font-size: 50px;
+	font-family: source-san-pro;
+}
+.company_name {
+	background-image: url("../../Downloads/handcomputer-e1366839172566.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+	margin-top:.5em;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+.light {
+	font-weight: bold;
+	color:whitesmoke;
+	font-family: source-sans-pro;
+	
+	
+}
+.tagline {
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 4px;
+	font-weight: lighter;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+
+/* About Section */
+.text_about {
+	width: 29%;
+	text-align: justify;
+	font-weight: bolder;
+	line-height: 25px;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px; 	
+	
+}
+
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 35px;
+	display: inline-block;
+	background-color: #FFFFFF;
+/*
+	margin-top: 0px;
+	margin-right: 3em;
+	margin-left: 3em;
+	margin-bottom: 3em;
+*/
+	margin: auto 0;
+}
+
+
+/* Services */
+.tab {x
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+.tab button:hover {
+  background-color: #ddd;
+}
+.tab button.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 1s; 
+}
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.tabcontent {
+	margin-top: 3rem;
+}
+
+/* Go from zero to full opacity */
+
+
+
+/*
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.services {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	 [disabled]min-width: 400px;
+
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	
+	
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.services .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+	display: inline-grid;
+}
+.services .thumbnail p {
+	margin-top: .5em;
+	margin-right: .5em;
+	margin-bottom: .5em;
+	margin-left: .5em;
+	color: #A3A3A3;
+	display: inline-grid;
+}
+ */
+
+
+
+/* Values Section */
+
+/*
+.banner {
+	background-color: #2D9AB7;
+	background-image: url("../../Downloads/JD-PALLAS-Website-PMO-Setup-Consulting-Background.jpg");
+	height: 350px;
+	column-count: 3;
+	column-gap: 1em;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+	
+} 
+*/
+
+/*
+.container2 {
+	width:96%; 
+    height:200px; 
+    background-color:white; 
+    padding-top:50px; 
+    padding-left:50px; 
+    padding-right:5px;
+	padding-bottom: 150px;
+}
+*/
+
+.container2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 50vh;
+}
+
+.valueh2 {
+	width: 100%;
+	margin-left: 1.5rem;
+	
+}
+
+#value1, #value2, #value3{
+	height: 50%;
+	padding: 50px;
+	border: 1px solid green; 	
+}
+
+/*
+#value1 {
+	 float:left; 
+     width:250px; 
+     height:200px; 
+     background-color:none; 
+	 padding-left:5em;
+    
+}
+#value2{
+	float:left; 
+    width:250px; 
+    height:200px; 
+    background-color:none;  
+    padding-left:6em;
+	padding-right:3em;
+    margin-left:20px;
+}
+#value3 {
+	float:right; 
+    width:400px; 
+    height:100px; 
+    background-color:none; 
+	padding-right:10em;
+  
+}
+*/
+
+
+
+
+/*Contact Us*/
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  
+}
+
+
+/* Add a background color and some padding around the form */
+.contact_us {
+  border-radius: 5px;
+  background-color: none;
+  margin: .5em;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+
+
+
+/* More info */
+.button {
+	width: 200px;
+	margin-top: 40px;
+	margin-right: auto;
+	margin-bottom: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 2px;
+	border: 3px solid #FFFFFF;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+.button:hover {
+	background-color: #FEFEFE;
+	color: #C4C4C4;
+	cursor: pointer;
+}
+.copyright {
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #717070;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	border-top-width: 2px;
+}
+.footer_banner {
+	background-color: none;
+	padding-top: 60px;
+	padding-bottom: 60PX;
+	margin-bottom: 0px;
+	background-image: url(../../Desktop/images/pattern.png);
+	background-repeat: repeat;
+}
+footer {
+	display: inline-block;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+.text_about {
+	width: 100%;
+	text-align: justify;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 90%;
+	margin-top: 25px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 12px;
+	float: none;
+	text-align: center;
+}
+.banner {
+	background-color: #2D9AB7;
+	background-image: none;
+}
+.tagline {
+	margin-top: 20px;
+	line-height: 22px;
+}
+.company_header {
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 22px;
+	text-align: center;
+}
+}
+
+/* Small Tablets */
+@media (min-width: 321px)and (max-width: 767px) {
+
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #52bad5;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_about {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.thumbnail {
+	width: 100%;
+}
+.footer_column {
+	width: 100%;
+	margin-top: 0px;
+}
+.parallax {
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 40%;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	width: 100%;
+	font-size: 18px;
+}
+.parallax_description {
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	margin-top: 30%;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+.thumbnail {
+	width: 50%;
+}
+.parallax {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-top: 20%;
+}
+.parallax_description {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	padding-top: 30px;
+}
+.banner {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.footer_column {
+	width: 100%;
+}
+}
+
+/* Small Desktops */
+@media (min-width: 768px) and (max-width: 2096px) {
+.text_about {
+	width: 100%;
+}
+.thumbnail {
+	width: 50%;
+}
+.text_about{
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}

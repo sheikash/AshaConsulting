@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Light Theme</title>
+
+	<link href="HanaConsultingCSS.css" rel="stylesheet" type="text/css">
+	<script src="HanaConsultingJava.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+<!-- Main Container -->
+<div class="container"> 
+  <!-- Navigation -->
+  <header> <a href="">
+    </a>
+    <nav>
+      <ul>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li> <a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+	
+  <!-- Company Name Section -->
+  <section class="company_name" id="company_name">
+    <h2 class="company_header">HM <span class="light">Violeta Consulting</span></h2>
+    <p class="tagline"> one page website</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <h2> About Us</h2>
+    <p class="text_about">We offers complete accounting services, including accounts preparation, financial and tax planning. From setting up a limited 	company to VAT return services, all under one roof, to businesses from different sectors. </p>
+	<p>
+    </p>
+    <p class="text_about">Our aim is to provide a cost-effective and high value accounting solution that meet our clientsâ€™ financial needs. With this in mind, we work hard to get to know you and your business, in order to deliver bespoke and efficient services for your finance needs, in particular, to improve your business. </p>
+	<p class="text_about">In addition to traditional accounting and tax services, we also provide Business advice services. At any stage of your development, whether you are a new business or looking to expand, and whether you have tax, accounting or bookkeeping concerns, our team of certified accountants are ready to help.</p>
+	<br>
+	<p class="text_about">We understand that good accounting is vital for the healthy running of a business, however it also requires a lot of attention. With our wealth of experience, we can help our clients with their bookkeeping and accounting tasks so they can better focus on growing their business.</p>
+  </section>
+	
+		
+<!-- Values Section -->	
+	<div class="valueh2">
+	<h2> Values </h2>
+	</div>
+ <section class="container-section">
+	<div class="container2">
+		<div id="value1"> 
+		<center> INTEGRITY, EXCELLENCE AND COMMITMENT </center>
+		<p> Our integrity is a significant part of our business model, we commit to provide excellent service without compromising quality. </p>
+		</div>
+		
+		<div id="value2"> 
+		<center> PROFESSIONALITY, EFFICIENCY AND RESPONSIVENESS  </center>
+		<p> Our ethos is to conduct a unique and customised service with professional manner, high efficiency, effectiveness and awareness. </p>
+		</div>
+		
+		<div id="value3"> 
+		<center> PASSIONATE, COMPASSIONATE AND RELIABLITY  </center>
+		<p> We are passionate about what we do, how| Why we do it, we are genuinely concerned about our clients and their needs, we endeavour to achieve the best possible results to our clients to build trustworthy lasting relationships.  </p>
+		</div>
+		
+	 </div>
+	
+	
+</section>	
+	
+<!-- Service Section -->
+  <section class="servicetabs" onload="myFunction()">
+	<div class="tab">
+		<button class = "tablinks"  onClick="openCity(event, 'Requitment')" data-tab-content id="active" > Specialist Requitment and Executive Search </button>
+		<button class = "tablinks" onClick="openCity(event, 'Finance')"> Finance </button>
+		<button class = "tablinks" onClick="openCity(event, 'Information')"> Information Technology </button>
+		<button class = "tablinks" onClick="openCity(event, 'Project')"> Project Management </button>
+		<button class = "tablinks" onClick="openCity(event, 'Counselling')"> Workplace Counselling and Coaching </button>
+	</div>
+	
+	 <div id="Requitment" class="tabcontent">
+	 	<h3>Specialist Requitment and Executive Search </h3>
+		<p> We are is a niche recruiting specialist for the Education and Health sectors as well as have the expertise to headhunt for the best management executives in different sectors. </p>
+	 </div>
+	 
+	 <div id="Finance" class="tabcontent">
+	 	<h3>Finance </h3>
+		<p> We offer complete accounting services, including setting financial strategies, accounts preparation, financial advice, payroll and management accounts. Our certified financial advisors will be able to support you in any stage of your business development and provide efficient financial services.</p>
+	 </div>
+	 
+	  <div id="Information" class="tabcontent">
+	 	<h3>Information Technology </h3>
+		<p> Managed support includes: Desktop, infrastructure, the cloud, and security </p>
+	 </div>
+	 
+	 <div id="Project" class="tabcontent">
+	 	<h3>Project Management </h3>
+		<p> Whether you are a start-up, SME company or large organisation we offer an innovative and forward-thinking project management service to support you in the initial stages of your project, to transform a service or rescue derailed projects and programmes. </p>
+	 </div>
+	 
+	  <div id="Counselling" class="tabcontent">
+	 	<h3>Workplace Counselling and Coaching </h3>
+		<p> We thrive to assist our clients to create productive and cohesive environment, hence we offer our dedicated workplace counselling and coaching programme which is customised to each client and their employee’s requirements. We will support our clients to achieve their responsibility of care towards their employees and for the employees we will offer compassionate support in a confidential and impartial setting.</p>
+	 </div>
+ </section>
+	
+
+	
+	
+  <!-- Footer Section -->
+  <section class="footer_banner" id="contact">
+    <h2 class="hidden">Contact Us </h2>
+    <div class="contact_us">
+  <form action="/action_page.php" class= "submit_form">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  </form>
+			
+		
+</div>
+    <div class="button">Submit</div>
+  </section>
+  <!-- Copyrights Section 
+  <div class="copyright">&copy;2019- <strong>Light Theme</strong></div> -->
+</div>
+<!-- Main Container Ends -->
+	
+	
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+ 
+  
+  	
+}
+</script>
+</body>
+</html>
