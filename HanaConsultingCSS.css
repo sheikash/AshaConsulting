@@ -1,13 +1,9 @@
 @charset "UTF-8";
 
-
-
-
-
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color:none;
+	background-color:white;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
@@ -16,26 +12,28 @@ body {
 	font-weight: bold;
 	box-sizing: border-box;
 }
+
 /* Container */
 .container {
-	width: 90%;
+	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
 	height: 1000px;
 	background-color: #FFFFFF;
 }
 
-
 h2 {
 	margin-bottom: 2em;
+	margin-top:2em;
 }
 
 /* Navigation */
 header {
 	width: 100%;
 	height: 5%;
-	background-color: dimgrey;
-	border-bottom: 1px solid #2C9AB7;
+	background-color: white;
+	border: 1px solid green; 
+	
 }
 nav {
 	float: right;
@@ -58,7 +56,7 @@ nav ul li {
 	transition: all 0.3s linear;
 }
 ul li a {
-	color: white;
+	color:#61892f;
 	text-decoration: none;
 }
 ul li:hover a {
@@ -67,23 +65,30 @@ ul li:hover a {
 
 
 /* Company Name and Header Section */
-.company_header {
+
+.company_header{
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
 	color: white;
+	font-weight: bold;
+	border: 3px solid #f1f1f1;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	z-index: 2;
+	width: 50%;
+	padding: 20px;
 	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	letter-spacing: 4px;
-	text-weight: bold;
-	font-size: 50px;
-	font-family: source-san-pro;
 }
+
 .company_name {
-	background-image: url("../../Downloads/handcomputer-e1366839172566.jpg");
+	background-image: url("Images/BackgroundPhoto.jpg");
 	background-size:cover;
 	background-repeat: no-repeat;
-	margin-top:.5em;
+	filter: blur(1px);
+	/* -webkit-filter: blur(1px); */
+	/* margin-top:.5em; */
 	padding-top: 200px;
 	padding-bottom: 200px;
 }
@@ -113,6 +118,7 @@ ul li:hover a {
 	float: left;
 	padding-left: 20px;
 	padding-right: 20px; 	
+	border: 1px solid green; 
 	
 }
 
@@ -121,19 +127,19 @@ ul li:hover a {
 	padding-right: 25px;
 	padding-top: 35px;
 	display: inline-block;
-	background-color: #FFFFFF;
-/*
-	margin-top: 0px;
-	margin-right: 3em;
-	margin-left: 3em;
-	margin-bottom: 3em;
-*/
+	border: 1px solid green; 
 	margin: auto 0;
+}
+
+.abouth2{
+	width: 100%;
+	margin-left: 1.5rem;
+	border: 1px solid green; 
 }
 
 
 /* Services */
-.tab {x
+.tab {
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
@@ -168,138 +174,48 @@ ul li:hover a {
 	margin-top: 3rem;
 }
 
-/* Go from zero to full opacity */
-
-
-
-/*
-.stats {
-	color: #717070;
-	margin-bottom: 5px;
+.servicetabs{
+	border: 1px solid green; 
+	padding: 50px;
 }
-.services {
-	clear: both;
-	display: inline-block;
+
+.servicesh2 {
+	border: 1px solid green; 
 	width: 100%;
-	background-color: #FFFFFF;
-	 [disabled]min-width: 400px;
-
-	padding-bottom: 35px;
-	padding-top: 0px;
-	margin-top: -5px;
-	margin-bottom: 0px;
-	
-	
+	margin-left: 1.5rem;
 }
-.thumbnail {
-	width: 25%;
-	text-align: center;
-	float: left;
-	margin-top: 35px;
-	display: flex;
-	flex-direction: row;
-	
-}
-.services .thumbnail h4 {
-	margin-top: 5px;
-	margin-right: 5px;
-	margin-bottom: 5px;
-	margin-left: 5px;
-	color: #52BAD5;
-	display: inline-grid;
-}
-.services .thumbnail p {
-	margin-top: .5em;
-	margin-right: .5em;
-	margin-bottom: .5em;
-	margin-left: .5em;
-	color: #A3A3A3;
-	display: inline-grid;
-}
- */
 
 
 
 /* Values Section */
-
-/*
-.banner {
-	background-color: #2D9AB7;
-	background-image: url("../../Downloads/JD-PALLAS-Website-PMO-Setup-Consulting-Background.jpg");
-	height: 350px;
-	column-count: 3;
-	column-gap: 1em;
-	padding-right: 10px;
-	padding-left: 10px;
-	
-	
-} 
-*/
-
-/*
-.container2 {
-	width:96%; 
-    height:200px; 
-    background-color:white; 
-    padding-top:50px; 
-    padding-left:50px; 
-    padding-right:5px;
-	padding-bottom: 150px;
-}
-*/
 
 .container2 {
 	display: flex;
 	justify-content: center;
 	text-align: center;
 	height: 50vh;
+	position: relative; 
 }
 
 .valueh2 {
 	width: 100%;
 	margin-left: 1.5rem;
+	border: 1px solid green; 
 	
 }
 
 #value1, #value2, #value3{
-	height: 50%;
+	height: 60%;
 	padding: 50px;
 	border: 1px solid green; 	
+	
 }
-
-/*
-#value1 {
-	 float:left; 
-     width:250px; 
-     height:200px; 
-     background-color:none; 
-	 padding-left:5em;
-    
-}
-#value2{
-	float:left; 
-    width:250px; 
-    height:200px; 
-    background-color:none;  
-    padding-left:6em;
-	padding-right:3em;
-    margin-left:20px;
-}
-#value3 {
-	float:right; 
-    width:400px; 
-    height:100px; 
-    background-color:none; 
-	padding-right:10em;
-  
-}
-*/
 
 
 
 
 /*Contact Us*/
-/* Style inputs with type="text", select elements and textareas */
+
 input[type=text], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* Some padding */  
@@ -312,17 +228,22 @@ input[type=text], select, textarea {
   
 }
 
-
+.contacth2 {
+	width: 100%;
+	margin-left: 1.5rem;
+	border: 1px solid green; 
+	
+}
 /* Add a background color and some padding around the form */
 .contact_us {
   border-radius: 5px;
   background-color: none;
   margin: .5em;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 5px;
+  padding: 50px;
+  border: 1px solid green; 
 }
+
+
 
 
 
@@ -344,37 +265,16 @@ input[type=text], select, textarea {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
-	border: 3px solid #FFFFFF;
-	color: #FFFFFF;
+	border: 3px solid green;
+	color:black;
 	transition: all 0.3s linear;
 }
 .button:hover {
 	background-color: #FEFEFE;
-	color: #C4C4C4;
+	color: green;
 	cursor: pointer;
 }
-.copyright {
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	background-color: #717070;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	font-weight: lighter;
-	letter-spacing: 2px;
-	border-top-width: 2px;
-}
-.footer_banner {
-	background-color: none;
-	padding-top: 60px;
-	padding-bottom: 60PX;
-	margin-bottom: 0px;
-	background-image: url(../../Desktop/images/pattern.png);
-	background-repeat: repeat;
-}
-footer {
-	display: inline-block;
-}
+
 
 /* Mobile */
 @media (max-width: 320px) {
@@ -388,8 +288,7 @@ footer {
 	float: none;
 	display: none;
 }
-header nav ul {
-}
+
 nav ul li {
 	margin-top: 0px;
 	margin-right: 0px;
@@ -578,3 +477,120 @@ nav ul li {
 	padding-top: 0px;
 }
 }
+
+
+
+
+/*Commented Code*/
+
+/*  
+
+.company_header {
+	color: white;
+	text-align: center;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 4px;
+	/* text-weight: bold; 
+	font-size: 50px;
+	font-family: source-san-pro;
+} 
+
+.stats {
+	color: #717070;
+	margin-bottom: 5px;
+}
+.services {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	background-color: #FFFFFF;
+	 [disabled]min-width: 400px;
+
+	padding-bottom: 35px;
+	padding-top: 0px;
+	margin-top: -5px;
+	margin-bottom: 0px;
+	
+	
+}
+.thumbnail {
+	width: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 35px;
+	display: flex;
+	flex-direction: row;
+	
+}
+.services .thumbnail h4 {
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	color: #52BAD5;
+	display: inline-grid;
+}
+.services .thumbnail p {
+	margin-top: .5em;
+	margin-right: .5em;
+	margin-bottom: .5em;
+	margin-left: .5em;
+	color: #A3A3A3;
+	display: inline-grid;
+}
+
+.banner {
+	background-color: #2D9AB7;
+	background-image: url("../../Downloads/JD-PALLAS-Website-PMO-Setup-Consulting-Background.jpg");
+	height: 350px;
+	column-count: 3;
+	column-gap: 1em;
+	padding-right: 10px;
+	padding-left: 10px;
+	
+	
+} 
+.container2 {
+	width:96%; 
+    height:200px; 
+    background-color:white; 
+    padding-top:50px; 
+    padding-left:50px; 
+    padding-right:5px;
+	padding-bottom: 150px;
+}
+#value1 {
+	 float:left; 
+     width:250px; 
+     height:200px; 
+     background-color:none; 
+	 padding-left:5em;
+    
+}
+#value2{
+	float:left; 
+    width:250px; 
+    height:200px; 
+    background-color:none;  
+    padding-left:6em;
+	padding-right:3em;
+    margin-left:20px;
+}
+#value3 {
+	float:right; 
+    width:400px; 
+    height:100px; 
+    background-color:none; 
+	padding-right:10em;
+  
+}
+
+
+
+
+
+
+*/
