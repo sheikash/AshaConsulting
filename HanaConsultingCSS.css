@@ -33,6 +33,7 @@ h2 {
 	margin-bottom: 1.5em;
 	margin-top:1.5em;
 	color:#AD974F;
+	font-size: 30px;
 }
 
 /* Navigation */
@@ -147,9 +148,10 @@ ul li:hover a {
   overflow: auto;
   border: 1px solid #ccc;
   background-color: #8E793E;
-  width: 95%;
-  margin: 2em;
+  width: 100%;
+  /* margin: 2em; */
   padding-left: 10px;
+
 }
 .tab button {
   background-color: inherit;
@@ -160,7 +162,7 @@ ul li:hover a {
   padding: 14px 16px;
   font-size:18px;
   transition: 0.3s;
-  
+
 }
 .tab button:hover {
   background-color: #AD974F;
@@ -194,10 +196,9 @@ ul li:hover a {
 	display: flex;
 	justify-content: center;
 	text-align: center;
-	height: 50vh;
+	height: 28vh;
 	position: relative; 
-	
-	border: 1px solid green;
+    background-color: lightgrey;
 }
 
 .valueh2 {
@@ -213,7 +214,7 @@ ul li:hover a {
 	padding-bottom: 20px;
 	padding-top:10px;
 	font-weight: normal;
-	border: 1px solid green;
+	
 }
 
 
